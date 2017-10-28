@@ -203,6 +203,7 @@ figure {
   body {
     padding-bottom: 0;
     padding-left: 7rem;
+    background-color: black;
   }
 
   .site-header {
@@ -238,6 +239,23 @@ figure {
 
   .site-nav-item > .fa {
     font-size: 2.25rem;
+  }
+
+  .movie-overview {
+      display: block;
+  }
+
+  .footer-nav {
+      float: left;
+      width: 60%;
+      color: white;
+      padding: 1.5em .5em;
+  }
+
+  .about {
+      float: left;
+      width: 40%;
+      background-color: black;
   }
 }
 
