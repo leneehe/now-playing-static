@@ -234,12 +234,14 @@ figure {
   }
 
   .site-nav-list {
-    margin-top: 60px;
+    margin-top: 80px;
   }
 
   .site-nav-item > .fa {
     font-size: 2.25rem;
+    margin-top: -1em;
   }
+
 
   .movie-overview {
       display: block;
