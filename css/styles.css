@@ -211,7 +211,7 @@ figure {
   }
 
   img.site-logo-image {
-      width: 75%;
+      max-width: 75%;
   }
 
   .site-logo {
@@ -264,5 +264,89 @@ figure {
 /*Large screen design*/
 @media screen and (min-width: 992px) {
 
+  body {
+    padding-bottom: 0;
+    padding-left: 7rem;
+    background-color: black;
+  }
+
+  .site-header {
+    position: relative;
+  }
+
+  img.site-logo-image {
+      width: 75%;
+  }
+
+  .site-logo {
+    text-align: center;
+    z-index: 101;
+  }
+
+  .site-nav {
+    left: 0;
+    height: 100%;
+    width: 7rem;
+    /*background-color: gold;*/
+    background-color: rgb(240,240,240);
+  }
+
+  .site-nav-item {
+    clear: both;
+    width: 100%;
+    padding: 3.5em 0;
+    font-size: 0.7em;
+  }
+
+  .site-nav-list {
+    margin-top: 80px;
+  }
+
+  .site-nav-item > .fa {
+    font-size: 2.25rem;
+    margin-top: -1em;
+  }
+
+  .movie {
+    max-width: 33%;
+    float: left;
+  }
+
+  .movie:first-child {
+    max-width: 100%;
+  }
+
+  .movie-poster {
+    display: block;
+  }
+
+  .movie:first-child .movie-poster {
+    display: none;
+  }
+
+  .movie-overview, .movie-backdrop {
+    display: none;
+  }
+
+  .movie:first-child .movie-overview, .movie:first-child .movie-backdrop {
+    display: block;
+  }
+
+  .site-footer {
+    clear: both;
+  }
+
+  .footer-nav {
+      float: left;
+      width: 60%;
+      color: white;
+      padding: 1.5em .5em;
+  }
+
+  .about {
+      float: left;
+      width: 40%;
+      background-color: black;
+  }
 
 }
