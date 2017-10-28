@@ -209,9 +209,12 @@ figure {
     position: relative;
   }
 
+  img.site-logo-image {
+      width: 75%;
+  }
+
   .site-logo {
-    /* top: 1rem; */
-    /* left: 1rem; */
+    text-align: center;
     z-index: 101;
   }
 
@@ -230,7 +233,7 @@ figure {
   }
 
   .site-nav-list {
-    margin-top: 80px;
+    margin-top: 60px;
   }
 
   .site-nav-item > .fa {
